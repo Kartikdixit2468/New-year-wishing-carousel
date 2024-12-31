@@ -186,7 +186,7 @@ body{
     background-size: cover;
     z-index: -1;
     height: 100vh;
-    animation: untoldcoding 20s infinite ease-in-out;
+    animation: untoldcoding 30s infinite ease-in-out;
 
 } 
 #banner-1 .content{
