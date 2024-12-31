@@ -9,8 +9,7 @@ function typeWriter() {
       document.getElementById("text1").innerHTML += "</br>";
     else if (txt1.charAt(i) == ">")
       document.getElementById("text1").innerHTML = "";
-    } else document.getElementById("text1").innerHTML += txt1.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+  } else document.getElementById("text1").innerHTML += txt1.charAt(i);
+  i++;
+  setTimeout(typeWriter, speed);
 }
