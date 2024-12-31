@@ -17,6 +17,7 @@ nav{
     text-align: center;
     overflow: hidden;
     position: relative;
+    background-color: #0e002f;
 }
 .banner .slider{
     position: absolute;
@@ -25,12 +26,12 @@ nav{
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    animation: autoRun 35s linear infinite;
+    animation: autoRun 40s linear infinite;
     z-index: 2;
 }
 @keyframes autoRun{
     from{
-        transform: perspective(1000px) rotateX(-14deg) rotateY(0deg);
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
     }to{
         transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
     }
@@ -161,4 +162,23 @@ nav{
     height: 20vh;
     align-items: center;
     justify-content: center;
+}
+#main-banner{
+    position: absolute;
+
+}
+footer{
+    position: relative;
+    background: #00000082;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 8vh;
+    top: 92vh;
+}
+footer *{
+    color: #ffff;
+    font-weight: 600;
+    font-family: Poppins;
 }
