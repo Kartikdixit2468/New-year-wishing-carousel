@@ -141,7 +141,7 @@ nav{
     background-image: url('/images/new_b.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     z-index: -1;
     height: 100vh;
 } 
