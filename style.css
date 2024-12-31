@@ -9,6 +9,9 @@ nav{
     width: 100%;
 } */
 .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -17,17 +20,17 @@ nav{
 }
 .banner .slider{
     position: absolute;
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 550px;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    animation: autoRun 20s linear infinite;
+    animation: autoRun 35s linear infinite;
     z-index: 2;
 }
 @keyframes autoRun{
     from{
-        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+        transform: perspective(1000px) rotateX(-14deg) rotateY(0deg);
     }to{
         transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
     }
@@ -38,11 +41,11 @@ nav{
     inset: 0 0 0 0;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        translateZ(550px);
+        translateZ(50px);
 }
 .banner .slider .item img{
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
     object-fit: cover;
 }
 .banner .content{
@@ -119,6 +122,11 @@ nav{
         width: 100%;
         text-align: center;
         padding: 0 30px;
+        font-size: larger;
+
+    }
+    .banner .content .author *{
+        font-size: larger;
     }
 }
 @media screen and (max-width: 767px) {
