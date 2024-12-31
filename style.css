@@ -79,7 +79,7 @@ nav{
     max-width: 200px;
 }
 .banner .content h2{
-    font-size: 3em;
+    font-size: 2em;
 }
 /* .banner .content .model{
     background-image: url(images/n2.png);
@@ -93,7 +93,7 @@ nav{
     background-position: top center;
     z-index: -1;
 } */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1081px) {
     .banner .slider{
         width: 160px;
         height: 200px;
@@ -148,7 +148,9 @@ nav{
 #banner-1 .content{
     display: flex;
     flex-direction: column;
+    top: 70%;
     padding: 10px;
-    border:  2px solid yellow;
-    height: 70vh;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
 }
