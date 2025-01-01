@@ -200,8 +200,8 @@ body{
 }
 #main-banner{
     padding: 20px;
-    padding-top: 60px;
-    height: 60vh !important;
+    padding-top: 80px;
+    height: 68vh !important;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -209,8 +209,8 @@ body{
 .container {
     top: 0;
     left: 0;
-    height: 28vh;
-    width: 90%;
+    height: 25vh;
+    width: 95%;
     padding: 10px;
     margin: auto;
     text-align: center;
@@ -221,7 +221,7 @@ body{
   .container b{
     margin-top: 15px;
     margin: 4px;
-    font-size: large;
+    font-size: medium;
   }
 footer{
     position: absolute;
